@@ -22,7 +22,7 @@ Date | Speaker | Topic | Links
 5/11/2015| Cheryl Lewis Ames | gene prediction and annotation using Trinotate | 
 5/18/2015| Missy Hawkins | sequence capture experiment design | 
 6/1/2015| Matt Leray | metabarcoding data OTU calling, community-level analysis | 
-6/8/2015| Ehsan Kayal | Phylogenomic analysis | 
+6/8/2015| Ehsan Kayal | Phylogenomic analysis | [Slides](2015/Kayal_2015-6-8.pdf)
 6/15/2015| Matthew Kweskin | Tricking out your Mac: Installing analysis software on your Mac | [Slides](2015/Kweskin-Mac.pdf)
 6/22/2015| Monica C. Munoz-Torres | Web Apollo & Gene Ontology Resources for Functional Annotations | 
 6/29/2015| Tammy Wilbert | RAD-seq library prep (pros/cons), some snp calling tools, population genomics analysis
