@@ -17,7 +17,7 @@ Date | Speaker | Topic
 Date | Speaker | Topic | Links 
 -----|---------|-------|--------
 4/20/2015| Rebecca Dikow | Whole genome alignment/phylogeny | 
-4/27/2015| Paul Frandsen | submitting to cluster with qsub, scripting | 
+4/27/2015| Paul Frandsen | submitting to cluster with qsub, scripting | [Hydra training site](https://github.com/SmithsonianWorkshops/Hydra-workshop)
 5/4/2015| HC Lim | genotype and snp calling | 
 5/11/2015| Cheryl Lewis Ames | gene prediction and annotation using Trinotate | 
 5/18/2015| Missy Hawkins | sequence capture experiment design | 
