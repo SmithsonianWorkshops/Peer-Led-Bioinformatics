@@ -1,6 +1,9 @@
 # Smithsonian Peer-led Bioinformatics series
 Bioinformatics training series led by members of the Smithsonian community
 
+##Videos of the talks
+Users *connected to the SI Intranet* can view video links [here](http://darwin.si.edu/ads/Lists/Links/Peer-led-video.aspx). Others, not connected to the SI network, can contact us via Github for video access.
+
 ##2016 Series
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building.
 
