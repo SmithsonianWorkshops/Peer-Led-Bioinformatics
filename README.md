@@ -17,13 +17,13 @@ Date | Speaker | Topic | Links
 4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes
 
 ##2015 Series
-Date | Speaker | Topic | Links 
+Date | Speaker | Topic | Links
 -----|---------|-------|--------
 4/20/2015| Rebecca Dikow | Whole genome alignment/phylogeny | [Slides](2015/Dikow_WGalignment_4_19_15.pdf)
 4/27/2015| Paul Frandsen | submitting to cluster with qsub, scripting | [Hydra training site](https://github.com/SmithsonianWorkshops/Hydra-workshop)
 5/4/2015| HC Lim | genotype and snp calling | [Slides](2015/Lim_SNP_calling.pdf), [GATK best practices videos (Broad)](http://www.broadinstitute.org/partnerships/education/broade/best-practices-variant-calling-gatk-1)
 5/11/2015| Cheryl Lewis Ames | gene prediction and annotation using Trinotate | [Slides](2015/Ames_Tinotate_Gene_Annotation_CLAMES_final_ed.pdf)
-5/18/2015| Missy Hawkins | sequence capture experiment design | 
+5/18/2015| Missy Hawkins | sequence capture experiment design | [Slides](2015/Hawkins-SeqCap-Exp-Design.pdf)
 6/1/2015| Matt Leray | metabarcoding data OTU calling, community-level analysis | 
 6/8/2015| Ehsan Kayal | Phylogenomic analysis | [Slides](2015/Kayal_2015-6-8.pdf)
 6/15/2015| Matthew Kweskin | Tricking out your Mac: Installing analysis software on your Mac | [Slides](2015/Kweskin-Mac.pdf)
