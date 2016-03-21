@@ -1,0 +1,19 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -q sThC.q
+#$ -cwd
+#$ -j y
+#$ -N new_parameter_file
+#$ -o new_parameter_file.log
+#
+# ----------------Modules------------------------- #
+module load bioinformatics/pyrad/3.0.6
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+#
+pyrad -n
+#
+echo = `date` job $JOB_NAME done

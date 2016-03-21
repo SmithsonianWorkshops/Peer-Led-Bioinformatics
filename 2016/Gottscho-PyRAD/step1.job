@@ -1,0 +1,21 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -pe mthread 8
+#$ -q sThC.q
+#$ -cwd
+#$ -j y
+#$ -N step1
+#$ -o step1.log
+#
+# ----------------Modules------------------------- #
+module load bioinformatics/pyrad/3.0.6
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+echo + NSLOTS = $NSLOTS
+#
+pyrad -p params_step1.txt -s 1
+#
+echo = `date` job $JOB_NAME done
