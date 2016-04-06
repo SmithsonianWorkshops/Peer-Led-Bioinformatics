@@ -24,7 +24,7 @@ Date | Speaker | Topic | Links
 5/4/2015| HC Lim | genotype and snp calling | [Slides](2015/Lim_SNP_calling.pdf), [GATK best practices videos (Broad)](http://www.broadinstitute.org/partnerships/education/broade/best-practices-variant-calling-gatk-1)
 5/11/2015| Cheryl Lewis Ames | gene prediction and annotation using Trinotate | [Slides](2015/Ames_Tinotate_Gene_Annotation_CLAMES_final_ed.pdf)
 5/18/2015| Missy Hawkins | sequence capture experiment design | [Slides](2015/Hawkins-SeqCap-Exp-Design.pdf)
-6/1/2015| Matt Leray | metabarcoding data OTU calling, community-level analysis | 
+6/1/2015| Matt Leray | metabarcoding data OTU calling, community-level analysis | [Slides](2015/Leray-MetabarcodingAnalysis.pdf)
 6/8/2015| Ehsan Kayal | Phylogenomic analysis | [Slides](2015/Kayal_2015-6-8.pdf)
 6/15/2015| Matthew Kweskin | Tricking out your Mac: Installing analysis software on your Mac | [Slides](2015/Kweskin-Mac.pdf)
 6/22/2015| Monica C. Munoz-Torres | Web Apollo & Gene Ontology Resources for Functional Annotations | [Web Apollo website](http://genomearchitect.org)
