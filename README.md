@@ -14,7 +14,7 @@ Date | Speaker | Topic | Links
 3/31/2016 | Paul Frandsen | Data partitioning | [Slides](https://github.com/SmithsonianWorkshops/Peer-Led-Bioinformatics/blob/master/2016/Frandsen-PartitionFinder/PF.pdf)<br/>[Tutorial](https://github.com/SmithsonianWorkshops/Peer-Led-Bioinformatics/blob/master/2016/Frandsen-PartitionFinder/tutorial.md)
 4/7/2016 | Rebecca Dikow | Genome Assembly
 4/14/2016 | Vanessa Gonzalez | Gene Prediction (Augustus) | [Slides](2016/GonzalezVL_GenePredictionInAugustus.pdf)
-4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes
+4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes | [Slides](2016/Tepolt-GenTools_popgen.pdf)
 
 ##2015 Series
 Date | Speaker | Topic | Links
