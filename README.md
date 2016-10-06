@@ -10,8 +10,16 @@ Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where
 
 Date | Speaker | Topics | Packages | Links
 -----|---------|--------|----------|------
-Thursday, Oct 13 (**1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
-
+Thurs, Oct 13 (**1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
+Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Continuation of topics from week 1||
+**Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|CODA, BOA, and RWTY|
+Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly APE|
+Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
+**Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|Adegenet, population genetics||
+**Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling||
+Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|Ggplot2, data.table||
+Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|phytools, spatstat, rgdal, shapefiles, rgeos, raster, and lattice|
+Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|rgdal, ggplot2|
 
 ##2016 (Spring) Series
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building.
