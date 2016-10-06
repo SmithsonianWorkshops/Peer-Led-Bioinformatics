@@ -4,22 +4,22 @@ Bioinformatics training series led by members of the Smithsonian community
 ##Videos of the talks
 Users *connected to the SI Intranet* can view video links [here](http://darwin.si.edu/ads/Lists/Links/Peer-led-video.aspx). Others, not connected to the SI network, can contact us via Github for video access.
 
-##2016 (Fall) Series- R
+##2016 (Fall) Series- Using R
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise.
 *Schedule is tentative and subject to change.*
 
 Date | Speaker | Topics | Packages | Links
 -----|---------|--------|----------|------
-Thurs, Oct 13 (**1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
+Thurs, Oct 13 (**❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
 Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Continuation of topics from week 1||
-**Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|CODA, BOA, and RWTY|
-Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly APE|
+**❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|CODA, BOA, and RWTY|
+Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
 Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
-**Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|Adegenet, population genetics||
-**Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling||
-Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|Ggplot2, data.table||
-Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|phytools, spatstat, rgdal, shapefiles, rgeos, raster, and lattice|
-Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|rgdal, ggplot2|
+**❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|[Adegenet](https://github.com/thibautjombart/adegenet/wiki), population genetics||
+**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling||
+Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|[ggplot2](http://ggplot2.org/), [data.table](https://github.com/Rdatatable/data.table/wiki)||
+Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|[phytools](https://github.com/liamrevell/phytools), [spatstat](http://spatstat.github.io/), [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html), [raster](https://cran.r-project.org/web/packages/raster/index.html), and [lattice](https://cran.r-project.org/web/packages/lattice/index.html)|
+Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|[rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [ggplot2](http://ggplot2.org/)|
 
 ##2016 (Spring) Series
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building.
