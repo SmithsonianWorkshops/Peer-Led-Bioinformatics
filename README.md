@@ -29,7 +29,7 @@ Date | Speaker | Topic | Links
 -----|---------|------|------
 3/17/2016 | Andy Gottscho | PyRAD - a python pipeline for Restriction-Associated-DNA sequencing | [Slides](Spring2016/Gottscho-PyRAD/pyRAD.pdf)<br/>Example on Hydra: /pool/genomics/gottschoa/test_pyrad_module<br/>[Sample param and job files](Spring2016/Gottscho-PyRAD)
 3/24/2016 | Michael Trizna | Jupyter Notebook for workflow management |  [Slides](Spring2016/Trizna-Jupyter.pdf)<br/>[Example notebook](https://github.com/MikeTrizna/jupyter_notebook_presentation/blob/master/Jupyter%20Notebook%20Talk.ipynb)
-3/31/2016 | Paul Frandsen | Data partitioning | [Slides](https://github.com/SmithsonianWorkshops/Peer-Led-Bioinformatics/blob/master/Spring2016/Frandsen-PartitionFinder/PF.pdf)<br/>[Tutorial](Spring2016/Frandsen-PartitionFinder/tutorial.md)
+3/31/2016 | Paul Frandsen | Data partitioning | [Slides](Spring2016/Frandsen-PartitionFinder/PF.pdf)<br/>[Tutorial](Spring2016/Frandsen-PartitionFinder/tutorial.md)
 4/7/2016 | Rebecca Dikow | Genome Assembly
 4/14/2016 | Vanessa Gonzalez | Gene Prediction (Augustus) | [Slides](Spring2016/GonzalezVL_GenePredictionInAugustus.pdf)
 4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes | [Slides](Spring2016/Tepolt-GenTools_popgen.pdf)
