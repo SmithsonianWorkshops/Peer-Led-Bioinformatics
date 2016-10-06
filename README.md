@@ -4,7 +4,8 @@ Bioinformatics training series led by members of the Smithsonian community
 ##Videos of the talks
 Users *connected to the SI Intranet* can view video links [here](http://darwin.si.edu/ads/Lists/Links/Peer-led-video.aspx). Others, not connected to the SI network, can contact us via Github for video access.
 
-##2016 (Fall) Series- Using R[2016 Fall]
+##Fall 2016
+###Using R
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise.
 
 *Schedule is tentative and subject to change.*
@@ -22,7 +23,7 @@ Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|[ggplot2](http://ggplot2.org/), [data.ta
 Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|[phytools](https://github.com/liamrevell/phytools), [spatstat](http://spatstat.github.io/), [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html), [raster](https://cran.r-project.org/web/packages/raster/index.html), and [lattice](https://cran.r-project.org/web/packages/lattice/index.html)|
 Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|[rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [ggplot2](http://ggplot2.org/)|
 
-##2016 (Spring) Series
+##Spring 2016
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building.
 
 Date | Speaker | Topic | Links
@@ -34,7 +35,7 @@ Date | Speaker | Topic | Links
 4/14/2016 | Vanessa Gonzalez | Gene Prediction (Augustus) | [Slides](2016/GonzalezVL_GenePredictionInAugustus.pdf)
 4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes | [Slides](2016/Tepolt-GenTools_popgen.pdf)
 
-##2015 Series
+##Spring 2015
 Date | Speaker | Topic | Links
 -----|---------|-------|--------
 4/20/2015| Rebecca Dikow | Whole genome alignment/phylogeny | [Slides](2015/Dikow_WGalignment_4_19_15.pdf)
