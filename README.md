@@ -6,13 +6,14 @@ Users *connected to the SI Intranet* can view video links [here](http://darwin.s
 
 ##2016 (Fall) Series- Using R
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise.
+
 *Schedule is tentative and subject to change.*
 
-Date | Speaker | Topics | Packages | Links
------|---------|--------|----------|------
+Date | Speaker | Topics | Packages | Session Links
+-----|---------|--------|----------|-------------------
 Thurs, Oct 13 (**❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
 Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Continuation of topics from week 1||
-**❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|CODA, BOA, and RWTY|
+**❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|[CODA](https://cran.r-project.org/web/packages/coda/index.html), [BOA](http://www.public-health.uiowa.edu/boa/), and [RWTY](https://github.com/danlwarren/RWTY)|
 Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
 Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
 **❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|[Adegenet](https://github.com/thibautjombart/adegenet/wiki), population genetics||
