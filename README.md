@@ -4,7 +4,16 @@ Bioinformatics training series led by members of the Smithsonian community
 ##Videos of the talks
 Users *connected to the SI Intranet* can view video links [here](http://darwin.si.edu/ads/Lists/Links/Peer-led-video.aspx). Others, not connected to the SI network, can contact us via Github for video access.
 
-##2016 Series
+##2016 (Fall) Series- R
+Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise.
+*Schedule is tentative and subject to change.*
+
+Date | Speaker | Topics | Packages | Links
+-----|---------|--------|----------|------
+Thursday, Oct 13 (**1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|General, R resources, task views, R studio, running R in command line/hydra; Introductory R, subsetting data, exporting importing data, data classes, some statistics||
+
+
+##2016 (Spring) Series
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building.
 
 Date | Speaker | Topic | Links
