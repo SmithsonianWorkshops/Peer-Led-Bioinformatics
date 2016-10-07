@@ -4,7 +4,7 @@ Bioinformatics training series led by members of the Smithsonian community
 ##Videos of the talks
 Users *connected to the SI Intranet* can view video links [here](http://darwin.si.edu/ads/Lists/Links/Peer-led-video.aspx). Others, not connected to the SI network, can contact us via Github for video access.
 
-##Fall 2016
+##Fall 2016 (Bioinformatics sessions focusing on R statistical language and packages)
 Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise with ❗.
 
 *Schedule is tentative and subject to change.*
@@ -16,9 +16,9 @@ Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Continuation of topics from
 **❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|[CODA](https://cran.r-project.org/web/packages/coda/index.html), [BOA](http://www.public-health.uiowa.edu/boa/), and [RWTY](https://github.com/danlwarren/RWTY)|
 Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
 Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
-**❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|[Adegenet](https://github.com/thibautjombart/adegenet/wiki), population genetics||
-**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling||
-Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|[ggplot2](http://ggplot2.org/), [data.table](https://github.com/Rdatatable/data.table/wiki)||
+**❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|population structure analysis|[Adegenet](https://github.com/thibautjombart/adegenet/wiki)|
+**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling|dplyr, magrittr, tidyr|
+Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|Plotting and data wrangling|[ggplot2](http://ggplot2.org/), [data.table](https://github.com/Rdatatable/data.table/wiki)|
 Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|[phytools](https://github.com/liamrevell/phytools), [spatstat](http://spatstat.github.io/), [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html), [raster](https://cran.r-project.org/web/packages/raster/index.html), and [lattice](https://cran.r-project.org/web/packages/lattice/index.html)|
 Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|[rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [ggplot2](http://ggplot2.org/)|
 
