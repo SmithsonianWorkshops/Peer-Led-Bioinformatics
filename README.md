@@ -18,7 +18,7 @@ Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Introductory R, subsetting 
 Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
 Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
 **❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|population structure analysis|[Adegenet](https://github.com/thibautjombart/adegenet/wiki)|
-**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling|dplyr, magrittr, tidyr|
+**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling|[dplyr](https://cran.r-project.org/package=dplyr), [magrittr](https://cran.r-project.org/package=magrittr), [tidyr](https://cran.r-project.org/package=tidyr)|
 Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|Plotting and data wrangling|[ggplot2](http://ggplot2.org/), [data.table](https://github.com/Rdatatable/data.table/wiki)|
 Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|[phytools](https://github.com/liamrevell/phytools), [spatstat](http://spatstat.github.io/), [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html), [raster](https://cran.r-project.org/web/packages/raster/index.html), and [lattice](https://cran.r-project.org/web/packages/lattice/index.html)|
 Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|[rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [ggplot2](http://ggplot2.org/)|
