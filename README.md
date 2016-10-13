@@ -12,7 +12,7 @@ Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where
 
 Date | Speaker | Topics | Packages | Session Links
 -----|---------|--------|----------|-------------------
-Thurs, Oct 13 (**❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|• R resources, R studio, Data types and concepts, packages and task views, running R on Hydra;<br/>• Introductory R, subsetting data, exporting importing data, data classes, some statistics||
+Thurs, Oct 13 (**❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|• R resources, R studio, Data types and concepts, packages and task views, running R on Hydra;<br/>• Introductory R, subsetting data, exporting importing data, data classes, some statistics||[Slides- Kweskin](Fall2016/Kweskin_R_intro.pdf)
 Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Introductory R, subsetting data, exporting importing data, data classes, some statistics (continuation of week 1)||
 **❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|[CODA](https://cran.r-project.org/web/packages/coda/index.html), [BOA](http://www.public-health.uiowa.edu/boa/), and [RWTY](https://github.com/danlwarren/RWTY)|
 Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
