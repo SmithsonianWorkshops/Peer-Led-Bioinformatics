@@ -6,19 +6,19 @@ Users *connected to the SI Intranet* can view video links [here](http://darwin.s
 
 ##Fall 2016
 ###(Bioinformatics sessions focusing on R statistical language and packages)
-Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise with ❗.
+Talks are on Thursdays from 2-3pm in WG33, Natural History Building except where noted otherwise with ❗❗.
 
 *Schedule is tentative and subject to change.*
 
 Date | Speaker | Topics | Packages | Session Links
 -----|---------|--------|----------|-------------------
-Thurs, Oct 13 (**❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|• R resources, R studio, Data types and concepts, packages and task views, running R on Hydra;<br/>• Introductory R, subsetting data, exporting importing data, data classes, some statistics||[Slides- Kweskin](Fall2016/Kweskin_R_intro.pdf)<br/></br>[Data files- Macdonald](Fall2016/Macdonald-Weeks1-2)
+Thurs, Oct 13 (**❗❗1pm**, WG33)| Matthew Kweskin & Kenneth (Tripp) Macdonald|• R resources, R studio, Data types and concepts, packages and task views, running R on Hydra;<br/>• Introductory R, subsetting data, exporting importing data, data classes, some statistics||[Slides- Kweskin](Fall2016/Kweskin_R_intro.pdf)<br/></br>[Data files- Macdonald](Fall2016/Macdonald-Weeks1-2)
 Thurs, Oct 20 (2pm, WG33)| Kenneth (Tripp) Macdonald|Introductory R, subsetting data, exporting importing data, data classes, some statistics (continuation of week 1)||<br/></br>[Data files- Macdonald](Fall2016/Macdonald-Weeks1-2)<br/><br/>[R ref card](Fall2016/Short-refcard.pdf) |
-**❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|[CODA](https://cran.r-project.org/web/packages/coda/index.html), [BOA](http://www.public-health.uiowa.edu/boa/), and [RWTY](https://github.com/danlwarren/RWTY)|
+**❗❗Tues**, Oct 25 (2pm, WG33)| Dietrich Gotzek|Assess MCMC convergence|[CODA](https://cran.r-project.org/web/packages/coda/index.html), [BOA](http://www.public-health.uiowa.edu/boa/), and [RWTY](https://github.com/danlwarren/RWTY)|<br/></br>[RWTY Data files](Fall2016/Gotzek-MCMC/rwty_data.zip)<br/><br/>[Treescape Data files](Fall2016/Gotzek-MCMC/treescape_data.zip)<br/> <br/>[Slides](Fall2016/Gotzek-MCMC/MCMCinR.pdf)
 Thurs, Nov 3 (2pm, WG33) | HC Lim|Manipulating phylogenetic trees, labeling, coloring|mainly [APE](https://cran.r-project.org/web/packages/ape/index.html)|
 Thurs, Nov 10 (2pm, WG33) |Michael Lloyd|Loops, files manipulations and repetitive tasks, etc||
-**❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|population structure analysis|[Adegenet](https://github.com/thibautjombart/adegenet/wiki)|
-**❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling|[dplyr](https://cran.r-project.org/package=dplyr), [magrittr](https://cran.r-project.org/package=magrittr), [tidyr](https://cran.r-project.org/package=tidyr)|
+**❗❗Tues**, Nov 15 (2pm, WG33)|Caroline Judy & Andrew Gottscho|population structure analysis|[Adegenet](https://github.com/thibautjombart/adegenet/wiki)|
+**❗❗Tues**, Nov 22 (2pm, WG33)|Mike Trizna|Data wrangling|[dplyr](https://cran.r-project.org/package=dplyr), [magrittr](https://cran.r-project.org/package=magrittr), [tidyr](https://cran.r-project.org/package=tidyr)|
 Thurs, Dec 1 (2pm, WG33)|Carolyn Tepolt|Plotting and data wrangling|[ggplot2](http://ggplot2.org/), [data.table](https://github.com/Rdatatable/data.table/wiki)|
 Thurs, Dec 8 (2pm, WG33)|Nicole Angeli|Displaying and analyzing geographic data, pattern analysis, or regression/population modeling.|[phytools](https://github.com/liamrevell/phytools), [spatstat](http://spatstat.github.io/), [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html), [rgeos](https://cran.r-project.org/web/packages/rgeos/index.html), [raster](https://cran.r-project.org/web/packages/raster/index.html), and [lattice](https://cran.r-project.org/web/packages/lattice/index.html)|
 Thurs, Dec 15 (2pm, WG33)|Steven Calahan|Manipulating geospatial data|[rgdal](https://cran.r-project.org/web/packages/rgdal/index.html), [ggplot2](http://ggplot2.org/)|
