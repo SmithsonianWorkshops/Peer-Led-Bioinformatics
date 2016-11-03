@@ -141,9 +141,6 @@ tree5<-root(tree5,node=58,resolve.root=T)
 
 
 
-
-
-
 #Painting branches with quantitative traits
 library(phytools)
 
