@@ -1,0 +1,419 @@
+Loops, files manipulations and repetitive tasks, and more!
+========================================================
+author: Michael Lloyd
+date:  Nov 10 2016
+autosize: true
+
+Smithsonian Peer-led Bioinformatics Series  
+https://github.com/SmithsonianWorkshops/Peer-Led-Bioinformatics/tree/master/Fall2016
+
+<center>![](Figures/LAB_logo.png)</center>
+
+
+What are loops?
+========================================================
+<center>![](Figures/loop.jpg)</center>
+
+<center>Multi-step iteration over something.</center>
+<center>That something can be a list, a data frame...most any R object type.</center>
+
+
+Types of loops
+====
+incremental: true
+* For loop  
+  + For a set of things, do something  
+* While loop  
+  + While a condition is true, do something
+* Repeat
+  + Keep doing something until a 'break' command is given
+* Functions that are actually 'hidden' loops
+  + The 'apply' family of functions. 
+  + Won't be covering these, but see: https://www.datacamp.com/community/tutorials/r-tutorial-apply-family
+
+Basic 'for' loop
+=====
+incremental: true
+For a set of things, do something.
+```{r}
+samples <- (1:10)
+samples
+
+for(i in samples) {
+  print(i)
+}
+```
+
+Brief detour to 'if/else' statements
+====
+incremental: true
+Useful control structures when dealing with loops. 
+
+```{r}
+samples <- 1:10
+for (i in samples) {
+  if (i %% 2 != 0) 
+    next
+  else 
+    print(i)
+}
+```
+
+Basic 'while' loop
+====
+incremental: true
+While a condition is true, do something.
+```{r}
+
+samples <- 1:10
+samples
+
+i<-1
+while(i<5) {
+  print(samples[i])
+  i<-i+1
+}
+```
+
+
+Basic 'repeat' statment
+====
+incremental: true
+Keep doing something until a 'break' command is given.
+```{r}
+total <- 0
+repeat { 
+  total <- total + 1
+  print(total)
+  if (total > 6)
+    break 
+}
+```
+
+    Without the 'break' statement, the repeat will loop to infinity breaking the internet.  
+    Not really...but seriously, without the break statement R will hang, so always 'break' your repeat loops.
+
+
+
+
+
+
+Practical Uses of Loops!
+====================================
+type: section
+Yes, there are good uses of these beyond counting numbers up and down.
+
+
+
+Repetative Graphics
+====
+incremental: true
+##### Problem- I need a ton of sub-plots in a figure, and I am really lazy and don't want to write all the 'plot' statements.  
+##### Solution- ._._.  
+### You guessed it! LOOPS
+
+Repetative Graphics
+====
+incremental:true
+Lets look at some code:
+```{r}
+library(readxl)
+mydata <- read_excel("example_files/Avg-Weekday-Rail-Ridership-by-Month-by-Station-2010-to-20161.xlsx")
+
+mydata$year <- substr(mydata$DATEMONTHINT, 1, 4)
+mydata$month <- substr(mydata$DATEMONTHINT, 5, 7)
+mydata <- mydata[order(mydata$year),]
+
+head(mydata)
+```
+
+====
+```{r eval=FALSE, fig.keep='none', fig.show='hide'}
+library(doBy)
+
+summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = mydata, FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
+
+lab<-c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+for ( i in levels(factor(summed.station$STATION)) ) {
+  
+	summed_single <- summed.station[ which(summed.station$STATION==i), ]
+	
+	plot(summed_single$month, summed_single$RIDERS_PER_WEEKDAY.m, pch=16)
+
+}
+
+```
+<br>
+    
+    This is a highly condensed version of the code. The full version of the code with detailed graphics code and how I did selective labeling/axes is on GitHub (First_Plot_Code.r).  
+
+
+
+
+So what does the plot look like when it's done? 
+===
+<center>![](Figures/plot1.jpg)</center>
+
+
+
+
+Now that we can walk lets try running, and look at nested loops...
+===
+Nested loops
+
+```{r eval=FALSE, fig.keep='none', fig.show='hide'}
+years <- levels(factor(mydata$year))
+
+for (j in years) {
+  
+  newdata <- mydata[ which(mydata$year==j), ]
+  
+  summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = newdata, FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
+  
+  pdf(paste(j,".pdf", sep=""), height=13,width=18)
+  
+  for ( i in levels(factor(summed.station$STATION)) ) {
+  
+    summed_single <- summed.station[ which(summed.station$STATION==i), ]
+    
+    plot(summed_single$month, summed_single$RIDERS_PER_WEEKDAY.m)
+  
+  }
+  dev.off()
+  # 
+}
+```
+    Again, this is condensed code. Full version is on GitHub (Second_Plot_Code.r).
+    
+So what does it looks when you run the full code? 
+===
+incremental:true
+Lets see.
+
+```{r fig.keep='none', fig.show='hide'}
+files <- list.files("Plot_Example", pattern = '.pdf')
+files
+```
+
+
+Here's an example plot...
+===
+<center>![](Figures/plot2.jpg)</center>
+
+
+
+Repetative file/data maniuplation 
+====
+incremental: true
+##### Problem- I have a bunch of next-gen sequencing coverage files for different samples, and I need to analyze the contents of all of them at once.   
+##### Solution- ._._.  
+### You guessed it! LOOPS
+
+
+Time for more code! 
+===
+incremental:true
+
+```{r fig.keep='none', fig.show='hide', echo=1:17}
+library(hexbin)
+library(data.table)
+library(doBy)
+library(lattice)
+library(gridExtra)
+
+setwd("./example_files")
+#set directory to location of output folder
+
+files <- list.files(pattern = 'smds.per.base.coverage')
+files
+
+example_file <- read.table(files[1], header=F, sep="\t")
+head(example_file)
+#V1 - name of target, V2 base position, V3 sequencing depth. 
+```
+
+Time for more code! 
+===
+incremental:true
+
+```{r eval=FALSE}
+temp_data <- function(file) {
+  temp_dataset <- read.table(file, header=F, sep="\t")
+
+  temp_dataset$loc = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -2))
+
+  dt <- data.table(temp_dataset)
+
+  temp_dataset <- dt[X, list(taxon, V1, V2, V3, loc, trPos=floor(V2-(MED/2)))]
+
+  return(temp_dataset)
+}
+```
+
+    A condensed example of the actual function used to process each datafile. See GitHub for the full file (Third_Code.r). 
+  
+
+
+Time for more code! 
+===
+incremental:true
+
+```{r eval=FALSE, fig.keep='none', fig.show='hide'}
+make_dataset <- function(working_dir) {
+  setwd(working_dir)
+  files <- list.files(pattern = 'smds.per.base.coverage')
+
+  for (file in files){
+ 
+    if (exists("dataset")){
+      Sys.sleep(0.1)
+      print(file)
+      flush.console() 
+
+      temp_dataset <- temp_data(file)
+
+      dataset<-rbind(dataset, temp_dataset)
+
+      rm(temp_dataset)
+
+    } else {
+      Sys.sleep(0.1)
+      print(file)
+      flush.console()
+
+      dataset <- temp_data(file)
+    }
+  }
+new_data <- dataset
+rm(dataset)
+return(new_data)
+}
+
+new_data <- make_dataset("./example_files")
+```
+
+====
+```{r eval=TRUE, echo=FALSE, fig.keep='none', fig.show='hide'}
+library(hexbin)
+library(data.table)
+library(doBy)
+library(lattice)
+library(gridExtra)
+
+setwd("./example_files")
+files <- list.files(pattern = 'smds.per.base.coverage')
+
+temp_data <- function(file) {
+  temp_dataset <- read.table(file, header=F, sep="\t")
+  temp_dataset <- temp_dataset[ which(temp_dataset$V1!='genome'), ]
+  temp_dataset$loc = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -2))
+  temp_dataset$taxon = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -1))
+  temp_dataset$pos = temp_dataset$V2
+  temp_dataset$exactloc = as.character(lapply(strsplit(as.character(temp_dataset$loc), split="uce"), "[", 2))
+  dt <- data.table(temp_dataset) 
+  setkey(dt, "exactloc") 
+  X <- dt[, list(MED=max(pos)), by=key(dt)] 
+  temp_dataset <- dt[X, list(taxon, V1, pos, V3, loc, trPos=floor(V2-(MED/2)))]
+  return(temp_dataset)
+}
+
+
+for (file in files){
+  if (exists("dataset")){
+    Sys.sleep(0.1)
+    #print(file)
+    flush.console() 
+    
+    temp_dataset <- temp_data(file)
+    temp_dataset <- setNames( temp_dataset , names( dataset ) )
+
+    dataset<-rbind(dataset, temp_dataset)
+    rm(temp_dataset)
+    rm(dt)
+    
+  } else {
+    Sys.sleep(0.1)
+    #print(file)
+    flush.console() 
+    dataset <- temp_data(file)
+    rm(dt)
+  }
+
+  # if the merged dataset does exist, append to it
+}
+new_data <- dataset
+rm(dataset)
+```
+<br>
+```{r fig.align='center'}
+summary_avg_loci <- summaryBy(V3 ~ trPos, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x)) } )
+head(summary_avg_loci)
+summary_avg <- summaryBy(V3 ~ taxon, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
+head(summary_avg)
+summary_avg <- summaryBy(V3 ~ taxon+loc, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
+head(summary_avg)
+```
+
+
+====
+```{r eval=TRUE, echo=FALSE, fig.keep='none', fig.show='hide'}
+library(hexbin)
+library(data.table)
+library(doBy)
+library(lattice)
+library(gridExtra)
+
+setwd("./example_files")
+files <- list.files(pattern = 'smds.per.base.coverage')
+
+temp_data <- function(file) {
+  temp_dataset <- read.table(file, header=F, sep="\t")
+  temp_dataset <- temp_dataset[ which(temp_dataset$V1!='genome'), ]
+  temp_dataset$loc = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -2))
+  temp_dataset$taxon = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -1))
+  temp_dataset$pos = temp_dataset$V2
+  temp_dataset$exactloc = as.character(lapply(strsplit(as.character(temp_dataset$loc), split="uce"), "[", 2))
+  dt <- data.table(temp_dataset) 
+  setkey(dt, "exactloc") 
+  X <- dt[, list(MED=max(pos)), by=key(dt)] 
+  temp_dataset <- dt[X, list(taxon, V1, pos, V3, loc, trPos=floor(V2-(MED/2)))]
+  return(temp_dataset)
+}
+
+
+for (file in files){
+  if (exists("dataset")){
+    Sys.sleep(0.1)
+    #print(file)
+    flush.console() 
+    
+    temp_dataset <- temp_data(file)
+
+    dataset<-rbind(dataset, temp_dataset)
+    rm(temp_dataset)
+
+  } else {
+    Sys.sleep(0.1)
+    #print(file)
+    flush.console() 
+    
+    dataset <- temp_data(file)
+  }
+
+  # if the merged dataset does exist, append to it
+}
+new_data <- dataset
+rm(dataset)
+```
+<br>
+```{r fig.align='center', fig.height=15, fig.width=15}
+par(oma=c(2,2,2,2), mar=c(4,5,3,2))
+plot(summary_avg_loci$V3.m~summary_avg_loci$trPos, xlim=c(-200,200), ylim=c(-10,100), xlab='Position From Center', ylab='Average Depth (x)', main="All Loci", cex=3, cex.lab=3, cex.axis=2, cex.main=3, col='blue', pch=16)
+
+```
+
+
+Questions...?
+=======
+
