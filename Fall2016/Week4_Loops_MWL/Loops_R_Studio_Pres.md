@@ -3,6 +3,8 @@ Loops, files manipulations and repetitive tasks, and more!
 author: Michael Lloyd
 date:  Nov 10 2016
 autosize: true
+width: 1800
+height: 1400
 
 Smithsonian Peer-led Bioinformatics Series  
 https://github.com/SmithsonianWorkshops/Peer-Led-Bioinformatics/tree/master/Fall2016
@@ -21,6 +23,7 @@ What are loops?
 Types of loops
 ====
 incremental: true
+
 * For loop  
   + For a set of things, do something  
 * While loop  
@@ -64,30 +67,6 @@ for(i in samples) {
 [1] 10
 ```
 
-Brief detour to 'if/else' statements
-====
-incremental: true
-Useful control structures when dealing with loops. 
-
-
-```r
-samples <- 1:10
-for (i in samples) {
-  if (i %% 2 != 0) 
-    next
-  else 
-    print(i)
-}
-```
-
-```
-[1] 2
-[1] 4
-[1] 6
-[1] 8
-[1] 10
-```
-
 Basic 'while' loop
 ====
 incremental: true
@@ -115,6 +94,38 @@ while(i<5) {
 [1] 2
 [1] 3
 [1] 4
+```
+
+Brief detour to 'if/else' statements
+====
+incremental: true
+Useful control structures when dealing with loops. 
+
+
+```r
+samples <- 1:10
+samples
+```
+
+```
+ [1]  1  2  3  4  5  6  7  8  9 10
+```
+
+```r
+for (i in samples) {
+  if (i %% 2 != 0) 
+    next
+  else 
+    print(i)
+}
+```
+
+```
+[1] 2
+[1] 4
+[1] 6
+[1] 8
+[1] 10
 ```
 
 
@@ -196,7 +207,8 @@ head(mydata)
 ```r
 library(doBy)
 
-summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = mydata, FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
+summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = mydata, 
+  FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
 
 lab<-c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
@@ -221,7 +233,6 @@ So what does the plot look like when it's done?
 
 
 
-
 Now that we can walk lets try running, and look at nested loops...
 ===
 Nested loops
@@ -234,7 +245,8 @@ for (j in years) {
   
   newdata <- mydata[ which(mydata$year==j), ]
   
-  summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = newdata, FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
+  summed.station <- summaryBy(RIDERS_PER_WEEKDAY ~ STATION + month, data = newdata, 
+    FUN = function(x) { c(m = mean(x), sd = sd(x), s = sum(x), len=length(x)) } )
   
   pdf(paste(j,".pdf", sep=""), height=13,width=18)
   
@@ -257,9 +269,27 @@ incremental:true
 Lets see.
 
 
+
 ```r
-files <- list.files("Plot_Example", pattern = '.pdf')
-files
+head(levels(factor(mydata$year)))
+```
+
+```
+[1] "2010" "2011" "2012" "2013" "2014" "2015"
+```
+
+```r
+head(levels(factor(mydata$STATION)))
+```
+
+```
+[1] "Addison Road"           "Anacostia"             
+[3] "Archives-Navy Memorial" "Arlington Cemetery"    
+[5] "Ballston"               "Benning Road"          
+```
+
+```r
+list.files("Plot_Example", pattern = '.pdf')
 ```
 
 ```
@@ -326,7 +356,7 @@ head(example_file)
 #V1 - name of target, V2 base position, V3 sequencing depth. 
 ```
 
-Time for more code! 
+Basic Functions
 ===
 incremental:true
 
@@ -335,7 +365,8 @@ incremental:true
 temp_data <- function(file) {
   temp_dataset <- read.table(file, header=F, sep="\t")
 
-  temp_dataset$loc = as.character(lapply(strsplit(as.character(temp_dataset$V1), split="_"), "[", -2))
+  temp_dataset$loc = as.character(lapply(strsplit(as.character(temp_dataset$V1), 
+    split="_"), "[", -2))
 
   dt <- data.table(temp_dataset)
 
@@ -349,7 +380,7 @@ temp_data <- function(file) {
   
 
 
-Time for more code! 
+Basic Functions
 ===
 incremental:true
 
@@ -393,7 +424,8 @@ new_data <- make_dataset("./example_files")
 <br>
 
 ```r
-summary_avg_loci <- summaryBy(V3 ~ trPos, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x)) } )
+summary_avg_loci <- summaryBy(V3 ~ trPos, data = new_data, 
+  FUN = function(x) { c(m = mean(x), n = length(x)) } )
 head(summary_avg_loci)
 ```
 
@@ -408,7 +440,8 @@ head(summary_avg_loci)
 ```
 
 ```r
-summary_avg <- summaryBy(V3 ~ taxon, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
+summary_avg <- summaryBy(V3 ~ taxon, data = new_data, 
+  FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
 head(summary_avg)
 ```
 
@@ -420,7 +453,8 @@ head(summary_avg)
 ```
 
 ```r
-summary_avg <- summaryBy(V3 ~ taxon+loc, data = new_data, FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
+summary_avg <- summaryBy(V3 ~ taxon+loc, data = new_data, 
+  FUN = function(x) { c(m = mean(x), n = length(x), min=min(x), max=max(x)) } )
 head(summary_avg)
 ```
 
@@ -441,12 +475,14 @@ head(summary_avg)
 
 ```r
 par(oma=c(2,2,2,2), mar=c(4,5,3,2))
-plot(summary_avg_loci$V3.m~summary_avg_loci$trPos, xlim=c(-200,200), ylim=c(-10,100), xlab='Position From Center', ylab='Average Depth (x)', main="All Loci", cex=3, cex.lab=3, cex.axis=2, cex.main=3, col='blue', pch=16)
+plot(summary_avg_loci$V3.m~summary_avg_loci$trPos, 
+xlim=c(-200,200), ylim=c(-10,100), 
+xlab='Position From Center', ylab='Average Depth (x)', main="All Loci", 
+cex=3, cex.lab=3, cex.axis=2, cex.main=3, col='blue', pch=16)
 ```
 
-<img src="Loops_R_Studio_Pres-figure/unnamed-chunk-15-1.png" title="plot of chunk unnamed-chunk-15" alt="plot of chunk unnamed-chunk-15" style="display: block; margin: auto;" />
+<img src="Loops_R_Studio_Pres-figure/unnamed-chunk-16-1.png" title="plot of chunk unnamed-chunk-16" alt="plot of chunk unnamed-chunk-16" style="display: block; margin: auto;" />
 
 
 Questions...?
 =======
-
