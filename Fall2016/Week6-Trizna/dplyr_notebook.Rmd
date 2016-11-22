@@ -1,0 +1,84 @@
+---
+title: "Tidyverse and Baseball"
+output: 
+  html_notebook: 
+    theme: spacelab
+    toc: yes
+---
+
+Before doing anything, we'll load the 2 libraries we need: Lahman and tidyverse.
+
+```{r}
+library(Lahman)
+library(tidyverse)
+```
+
+# Tibbles
+
+Now that we have loaded the Lahman R library, we have access to all of the data frames contained there. However, the tidyverse has a new data structure called "tibbles" that act similarly to the data frames with less overhead.
+
+One major difference can be seen with printing. Here I'll print the first 100 entries of the Batting dataframe. If I hadn't used the "head" command, all records would be printed to the notebook.
+
+```{r}
+head(Batting, 100)
+```
+
+With the tibble package, we get access to a new function called "glimpse", which I think does a better job of telling you what's in a table without overloading memory.
+
+```{r}
+batting <- as_tibble(Batting)
+glimpse(batting)
+```
+
+# Dplyr
+
+## filter
+
+The first dplyr verb I'll demonstrate is filter. This is used to subset the rows of a tibble based on a condition. Here I'll limit our batting table to statistics that took place in the ["live ball era"](https://en.wikipedia.org/wiki/Live-ball_era), which started in 1920. This limits the number of entries to 83,196.
+
+```{r}
+glimpse(filter(batting, yearID >= 1920))
+```
+
+## select
+
+```{r}
+glimpse(Master)
+```
+
+```{r}
+batting_names <- left_join(Batting, Master, by='playerID')
+glimpse(batting_names)
+```
+```{r}
+batting_names <- select(batting_names, nameGiven, AB, H, HR, RBI)
+glimpse(batting_names)
+```
+
+## arrange
+
+```{r}
+glimpse(arrange(batting, desc(HR)))
+```
+
+## mutate
+
+```{r}
+glimpse(mutate(batting, AVG = H / AB))
+```
+
+# Magrittr
+
+Magrittr uses something called "pipes" to string multiple functions together.
+
+```{r}
+best_hitters <- batting %>%
+                left_join(Master, by='playerID') %>%
+                mutate(AVG = H/AB) %>%
+                mutate(FullName = paste(nameFirst, nameLast, sep=' ')) %>%
+                arrange(desc(AVG)) %>%
+                filter(yearID >= 1920, AB > 500) %>%
+                select(FullName, AVG, HR, RBI)
+best_hitters
+```
+
