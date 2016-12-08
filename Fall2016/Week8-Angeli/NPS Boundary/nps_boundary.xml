@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Park Service</origin>
+				<pubdate>20050601 </pubdate>
+				<title>Current Administrative Boundaries of National Park System Units 08/29/2007 </title>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>National Park Service unit boundaries.</abstract>
+			<purpose>Service wide boundary set for display and general analysis purposes.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20020201</begdate>
+					<begtime>unknown</begtime>
+					<enddate>Present</enddate>
+					<endtime>unknown</endtime>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In Work</progress>
+			<update>Daily</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-170.727006</westbc>
+				<eastbc>145.729575</eastbc>
+				<northbc>68.655808</northbc>
+				<southbc>-14.288109</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>National Park Service</themekey>
+				<themekey>Boundary</themekey>
+				<themekey>National Parks</themekey>
+				<themekey>NPS</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>National Parks</placekey>
+				<placekey>USA</placekey>
+				<placekey>Guam</placekey>
+				<placekey>American Samoa</placekey>
+				<placekey>Virgin Islands</placekey>
+				<placekey>Alaska</placekey>
+				<placekey>Hawaii</placekey>
+				<placekey>Continental US</placekey>
+				<placekey>United States</placekey>
+				<placekey>Department of Interior</placekey>
+				<placekey>National Park Service</placekey>
+				<placekey>NPS</placekey>
+				<placekey>DOI</placekey>
+			</place>
+			<theme>
+				<themekt>National Park Service Theme Category Thesaurus</themekt>
+				<themekey>Boundary</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+		<place> <placekt>National Park System Unit Code Thesaurus</placekt><placekey>GISD</placekey><placekey>All_NPS</placekey><placekey>ALAG</placekey><placekey>ANIA</placekey><placekey>ANTI</placekey><placekey>APCO</placekey><placekey>ARCH</placekey><placekey>ARHO</placekey><placekey>BELA</placekey><placekey>BLCA</placekey><placekey>BOHA</placekey><placekey>BRCR</placekey><placekey>BRVB</placekey><placekey>BUIS</placekey><placekey>BUFF</placekey><placekey>CACL</placekey><placekey>CAKR</placekey><placekey>CARL</placekey><placekey>CAVO</placekey><placekey>CAVE</placekey><placekey>CAWO</placekey><placekey>CASA</placekey><placekey>CATO</placekey><placekey>CEBE</placekey><placekey>CEBR</placekey><placekey>CHSC</placekey><placekey>CHIR</placekey><placekey>CHIS</placekey><placekey>CHPI</placekey><placekey>CHRI</placekey><placekey>CLBA</placekey><placekey>CUGA</placekey><placekey>DENA</placekey><placekey>DETO</placekey><placekey>ELMO</placekey><placekey>ELRO</placekey><placekey>FEHA</placekey><placekey>FILA</placekey><placekey>FLFO</placekey><placekey>FOFR</placekey><placekey>FOBO</placekey><placekey>FOSM</placekey><placekey>FOSU</placekey><placekey>FOTH</placekey><placekey>FOWA</placekey><placekey>FRDO</placekey><placekey>GAAR</placekey><placekey>GREE</placekey><placekey>GWMP</placekey><placekey>GICL</placekey><placekey>GLBA</placekey><placekey>GOGA</placekey><placekey>GRKO</placekey><placekey>GRSA</placekey><placekey>HAFE</placekey><placekey>HEHO</placekey><placekey>HOFR</placekey><placekey>HOME</placekey><placekey>HUTR</placekey><placekey>IATR</placekey><placekey>JAGA</placekey><placekey>JICA</placekey><placekey>JOTR</placekey><placekey>KATM</placekey><placekey>KEFJ</placekey><placekey>KEMO</placekey><placekey>KICA</placekey><placekey>KLGO</placekey><placekey>KOVA</placekey><placekey>LACL</placekey><placekey>LAME</placekey><placekey>LIBI</placekey><placekey>LYBA</placekey><placekey>MABE</placekey><placekey>MACA</placekey><placekey>MALU</placekey><placekey>MANA</placekey><placekey>MEVE</placekey><placekey>MOJA</placekey><placekey>MONO</placekey><placekey>NATC</placekey><placekey>NACA</placekey><placekey>NISI</placekey><placekey>NOAT</placekey><placekey>ORPI</placekey><placekey>OZAR</placekey><placekey>PAIS</placekey><placekey>PEFO</placekey><placekey>PIRO</placekey><placekey>PISC</placekey><placekey>PISP</placekey><placekey>PORE</placekey><placekey>RRBH</placekey><placekey>SAMO</placekey><placekey>SAND</placekey><placekey>SARI</placekey><placekey>SCBL</placekey><placekey>SEQU</placekey><placekey>SITK</placekey><placekey>SUCR</placekey><placekey>THIS</placekey><placekey>TICA</placekey><placekey>TONT</placekey><placekey>TUPE</placekey><placekey>TUAI</placekey><placekey>TUMA</placekey><placekey>TUZI</placekey><placekey>VAFO</placekey><placekey>VOYA</placekey><placekey>WABA</placekey><placekey>WAPA</placekey><placekey>WHIS</placekey><placekey>WHSA</placekey><placekey>WHMI</placekey><placekey>WICA</placekey><placekey>WOTR</placekey><placekey>WRST</placekey><placekey>WUPA</placekey><placekey>YOSE</placekey><placekey>YUHO</placekey><placekey>YUCH</placekey></place><place> <placekt>National Park System Unit Name Thesaurus</placekt><placekey>GIS Division </placekey><placekey> </placekey><placekey>Alagnak Wild River</placekey><placekey>Aniakchak National Monument and Preserve </placekey><placekey>Antietam National Battlefield</placekey><placekey>Appomattox Court House National Historical Park</placekey><placekey>Arches National Park</placekey><placekey>Arlington House / The Robert  E. Lee National Memorial</placekey><placekey>Bering Land Bridge National Preserve</placekey><placekey>Black Canyon Of The Gunnison National Park</placekey><placekey>Boston Harbor Islands National Recreation Area</placekey><placekey>Brices Cross Roads National Battlefield Site</placekey><placekey>Brown v. Board Of Education National Historic Site</placekey><placekey>Buck Island Reef National Monument</placekey><placekey>Buffalo National River</placekey><placekey>Castle Clinton National Monument</placekey><placekey>Cape Krusenstern National Monument</placekey><placekey>Carl Sandburg Home National Historic Site</placekey><placekey>Capulin Volcano National Monument</placekey><placekey>Carlsbad Caverns National Park</placekey><placekey>Carter G. Woodson Home National Historic Site</placekey><placekey>Castillo De San Marcos National Monument</placekey><placekey>Catoctin Mountain Park</placekey><placekey>Cedar Creek and Belle Grove National Historical Park</placekey><placekey>Cedar Breaks National Monument</placekey><placekey>Central High School National Historic Site</placekey><placekey>Chiricahua National Monument</placekey><placekey>Channel Islands National Park</placekey><placekey>Charles Pinckney National Historic Site</placekey><placekey>Christiansted National Historic Site</placekey><placekey>Clara Barton National Historic Site</placekey><placekey>Cumberland Gap National Historical Park</placekey><placekey>Denali National Park and Preserve </placekey><placekey>Devils Tower National Monument</placekey><placekey>El Morro National Monument</placekey><placekey>Eleanor Roosevelt National Historic Site</placekey><placekey>Federal Hall National Memorial</placekey><placekey>First Ladies National Historic Site</placekey><placekey>Florissant Fossil Beds National Monument</placekey><placekey>Fort Frederica National Monument</placekey><placekey>Fort Bowie National Historic Site</placekey><placekey>Fort Smith National Historic Site</placekey><placekey>Fort Sumter National Monument</placekey><placekey>Ford&amp;apos;s Theatre National Historic Site</placekey><placekey>Fort Washington Park</placekey><placekey>Frederick Douglass National Historic Site</placekey><placekey>Gates Of The Arctic National Park and Preserve </placekey><placekey>Greenbelt Park</placekey><placekey>George Washington Memorial Parkway</placekey><placekey>Gila Cliff Dwellings National Monument</placekey><placekey>Glacier Bay National Park and Preserve </placekey><placekey>Golden Gate National Recreation Area</placekey><placekey>Grant-Kohrs Ranch National Historic Site</placekey><placekey>Great Sand Dunes National Park and Preserve </placekey><placekey>Harpers Ferry National Historical Park</placekey><placekey>Herbert Hoover National Historic Site</placekey><placekey>Home Of Franklin D. Roosevelt National Historic Site</placekey><placekey>Homestead National Monument of America</placekey><placekey>Hubbell Trading Post National Historic Site</placekey><placekey>Ice Age National Scenic Trail</placekey><placekey>James A. Garfield National Historic Site</placekey><placekey>Jimmy Carter National Historic Site</placekey><placekey>Joshua Tree National Park</placekey><placekey>Katmai National Park and Preserve </placekey><placekey>Kenai Fjords National Park</placekey><placekey>Kennesaw Mountain National Battlefield Park</placekey><placekey>Kings Canyon National Park</placekey><placekey>Klondike Gold Rush National Historical Park</placekey><placekey>Kobuk Valley National Park</placekey><placekey>Lake Clark National Park and Preserve </placekey><placekey>Lake Mead National Recreation Area</placekey><placekey>Little Bighorn Battlefield National Monument</placekey><placekey>Lyndon Baines Johnson Memorial Grove on the Potomac National Memorial</placekey><placekey>Mary McLeod Bethune Council House National Historic Site</placekey><placekey>Mammoth Cave National Park</placekey><placekey>Martin Luther King, Jr National Historic Site</placekey><placekey>Manassas National Battlefield Park</placekey><placekey>Mesa Verde National Park</placekey><placekey>Mojave National Preserve</placekey><placekey>Monocacy National Battlefield</placekey><placekey>Natchez National Historical Park</placekey><placekey> </placekey><placekey>Ninety Six National Historic Site</placekey><placekey>Noatak National Preserve</placekey><placekey>Organ Pipe Cactus National Monument</placekey><placekey>Ozark National Scenic Riverways</placekey><placekey>Padre Island National Seashore</placekey><placekey>Petrified Forest National Park</placekey><placekey>Pictured Rocks National Lakeshore</placekey><placekey>Piscataway Park</placekey><placekey>Pipe Spring National Monument</placekey><placekey>Point Reyes National Seashore</placekey><placekey>Ronald Reagan Boyhood Home National Historic Site</placekey><placekey>Santa Monica Mountains National Recreation Area</placekey><placekey>Sand Creek Massacre National Historic Site</placekey><placekey>Salt River Bay National Historical Park and Ecological Preserve</placekey><placekey>Scotts Bluff National Monument</placekey><placekey>Sequoia National Park</placekey><placekey>Sitka National Historical Park</placekey><placekey>Sunset Crater Volcano National Monument</placekey><placekey>Theodore Roosevelt Island National Memorial</placekey><placekey>Timpanogos Cave National Monument</placekey><placekey>Tonto National Monument</placekey><placekey>Tupelo National Battlefield</placekey><placekey>Tuskegee Airman National Historic Site</placekey><placekey>Tumacacori National Historical Park</placekey><placekey>Tuzigoot National Monument</placekey><placekey>Valley Forge National Historical Park</placekey><placekey>Voyageurs National Park</placekey><placekey>Washita Battlefield National Historic Site</placekey><placekey>War In The Pacific National Historical Park</placekey><placekey>Whiskeytown National Recreation Area</placekey><placekey>White Sands National Monument</placekey><placekey>Whitman Mission National Historic Site</placekey><placekey>Wind Cave National Park</placekey><placekey>Wolf Trap National Park for the Performing Arts </placekey><placekey>Wrangell - St Elias National Park and Preserve </placekey><placekey>Wupatki National Monument</placekey><placekey>Yosemite National Park</placekey><placekey>Yucca House National Monument</placekey><placekey>Yukon - Charley Rivers National Preserve</placekey></place></keywords>
+		<accconst>None</accconst>
+		<useconst>The data is intended for use as a tool for display and general GIS analysis purposes only.  
+It is in no way intended for engineering or legal purposes.  The data accuracy is checked 
+against best available sources which may be dated.  NPS assumes no liability for use of this data.
+Boundaries from the Land Resources Division have separate polygons for each type of unit.  For 
+example Denali National Park and Denali National Preserve are separate individual polygons.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>National Park Service</cntorg>
+				</cntperp>
+				<cntpos>Chief Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>301 S. Howes St. Suite 208</address>
+					<city>Fort Collins</city>
+					<state>CO</state>
+					<postal>80522</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>roger_m_johnson@nps.gov </cntemail>
+				<hours>M-Th 7-5:30 Mountain Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>National Park Service</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native>Microsoft Windows NT Version 4.0 (Build 1381) Service Pack 6;
+   ESRI ArcCatalog 8.2.0.700</native>
+		
+	<crossref><citeinfo><title>Metadata for Current Administrative Boundaries of National Park System Units 01/08/2007</title><onlink>http://nrdata.nps.gov/programs/lands/nps_boundary.xml</onlink><origin>National Park Service</origin><pubdate>20050601 </pubdate></citeinfo></crossref></idinfo>
+	<dataqual>
+		<complete>The data set is complete but subject to continual updates to reflect 
+boundary amendments, legislation, and acquisitions, and improved processing techniques.
+The data is being regularly updated with verified boundaries from NPS Land Resources Division.  
+Please contact the data originator with corrections and update suggestions.</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dean Tucker, Water Resource Division</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>NPSUnits</title>
+						<geoform>vector digital data</geoform>
+						<othercit>Park boundaries collected and digitized for the Horizon Project.</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>David Duran, GIS Division </origin>
+						<pubdate>Unknown</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>ParkDave</title>
+						<geoform>vector digital data</geoform>
+						<othercit>Park boundaries collected from Parks and Regions in 2001.</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Roger Johnson</origin>
+						<pubdate>Present</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>unit classification boundaries</title>
+						<geoform>vector digital data</geoform>
+						<othercit>Land Rersources Division has been creating hardcopy segment maps containing boundary data 
+since the 1960's.
+This data is currently being converted to a digital vector format and added to the collection as it become available.
+Additionally as existing boundary data is modified and/or new parks units units are acquired they are added to the collection.</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<procdesc>Boundary polygons for one-hundred and sixty units were verified data from the Lands Resources Division (LRD) according to the procedures defined in the Lands Acquisition Procedures Manual Chapter 5.  Boundary data from LRD has separate polygons for individual types of units like Denali National Park and Denali National Preserve.  Lands records in the dataset that can be identified by querying for [GIS_Notes] = "Lands" in the attribute table.  These parks include: African Burial Ground National Monument (AFBG), Alagnak Wild River (ALAG), Andrew Johnson National Historic Site (ANJO), Aniakchak National Monument and Preserve (ANIA), Antietam National Battlefield (ANTI), Appomattox Court House National Historical Park (APCO), Arches National Park (ARCH), Arlington House - Robert E. Lee Memorial (ARHO), Badlands National Park (BADL), Bering Land Bridge National Preserve (BELA), Black Canyon of the Gunnison National Park (BLCA), Boston Harbor Islands National Recreation Area (BOHA), Brices Cross Roads National Battlefield Site (BRCR), Brown v Board of Education National Historic Site (BRVB), Buck Island Reef National Monument (BUIS). Buffalo National River (BUFF), Carl Sandburg Home (CARL), Cape Krusenstern National Monument (CAKR), Capulin Volcano National Monument (CAVO), Carlsbad Caverns National Park (CAVE), Carter G. Woodson National Historic Site (CAWO), Castillo de San Marcos National Monument (CASA), Castle Clinton Monument (CACL), Catoctin Mountain Park (CATO), Cedar Breaks National Monument (CEBR), Cedar Creek and Belle Grove (CEBE), Charles Pinckney National Historic Site (CHPI), Chiricahua National Monument (CHIR), Channel Islands National Park (CHIS), Christiansted National Historic Site (CHRI),  Clara Barton National Historic Site (CLBA), Congaree National Park (COSW), Cumberland Gap National Historical Park (CUGA), Cuyahoga Valley National Park (CUVA), Denali National Park (DENA), Devils Tower National Monument (DETO), Effigy Mounds National Monument (EFMO), El Morro National Mounment (ELMO), Eleanor Roosevelt National Historic Site (ELRO), Federal Hall National Memorial (FEHA), First Ladies National Historic Site (FILA), Flight 93 National Memorial (FLNI), Florissant Fossil Beds (FLFO), Ford's Theatre National Historic Site (FOTH), Fort Bowie National Historic Site (FOBO), Fort Davis National Historic Site (FODA), Fort Frederica National Monument (FOFR), Fort Smith National Historic Site (FOSM), Fort Sumter National Monument (FOSU), Fort Union National Monument (FOUN), Fort Washington Park (FOWA), Fossil Butte National Monument (FOBU), Frederick Douglass National Historic Site (FRDO), Gates of the Arctic National Park (GAAR), General Grant National Memorial (GEGR), Greenbelt Park (GREE),George Washington Memorial Parkway (GWMP), Gila Cliff Dwellings National Monument (GICL), Glacier Bay National Park (GLBA), Golden Gate National Recreation Area (GOGA), Governors Island National Monument (GOIS), Grant-Kohrs Ranch National Historic Site (GRKO), Great Sand Dunes National Park and Preserve (GRSA), Hamilton Grange National Memorial (HAGR), Harpers Ferry National Historical Park (HAFE), Herbert Hoover National Historic Site (HEHO), Home of Franklin D Roosevelt National Historic Site (HOFR), Homestead National Monument (HOME), Hovenweep National Monument (HOVE), Hubbell Trading Post National Historic Site (HUTR), Ice Age National Scenic Trail (IATR), Indiana Dunes National Lakeshore (INDU), James A Garfield National Historic Site (JAGA), Jimmy Carter National Historic Site (JICA), Joshua Tree National Park (JOTR), Katmai National Park (KATM), Kenai Fjords National Park (KEFJ), Kennesaw Mountain National Battlefield Park (KEMO), Keweenaw National Historical Park (KEWE), Kings Canyon National Park (KICA), Klondike Gold Rush National Historical Park (KLGO), Kobuk Valley National Park (KOVA), Lake Clark National Park (LACL), Lake Mead National Recreation Area (LAME), Little Rock Central High School National Historic Site (CHSC), Lava Bed National Monument (LABE), Little Bighorn Battlefield National Monument (LIBI), Lyndon Baines Johnson Memorial Grove (LYBA), Mammoth Cave National Park (MACA), Manassas National Battlefield Park (MANA), Martin Luther King Jr. National Historic Site (MALU), Mesa Verde National Park (MEVE), Mary McLeod Bethune Council House National Historic Site (MABE), Minute Man National Historical Park (MIMA), Mojave National Preserve (MOJA), Monocacy National Battlefield (MONO), Natchez National Historical Park (NATC), National Capital Parks (NACA), Nicodemus National Historic Site (NICO), Ninety Six National Historic Site (NISI), Noatak National Preserve (NOAT), Organ Pipe Cactus National Monument (ORPI), Ozark National Scenic Riverway (OZAR), Padre Island National Seashore (PAIS), Petrified Forest National Park (PEFO), Pictured Rocks National Lakeshore (PIRO), Pipe Spring Nationam Monument (PISP), Pipestone National Monument (PIPE), Piscataway Park (PISC), Point Reyes National Seashore (PORE), Ronald Reagan Boyhood Home National Historic Site (RRBH), Salt River Bay National Historical Park (SARI), Saint Paul's Church National Historic Site (SAPA), Santa Monica Mountains National Recreation Area (SAMO), Sand Creek Massacre National Historic Site (SAND), Scotts Bluff National Mounment (SCBL), Sequoia National Park (SEQU), Sitka National Historical Park (SITK), Sunset Crater Volcano National Monument (SUCR), Tallgrass Prairie National Preserve (TAPR), Theodore Roosevelt National Park (THRO), Theodore Roosevelt Birthplace National Historic Site (THRB), Theodore Roosevelt Island National Memorial (THIS), Timpanogos Cave National Monument (TICA), Tonto National Monument (TONT), Tumacacori National Historical Park (TUMA), Tupelo National Battlefield (TUPE), Tuskegee Airmen National Historic Site (TUAI), Tuzigoot National Monument (TUZI), Valley Forge National Historical Park (VAFO), Voyageurs National Park (VOYA), Walnut Canyon National Monument (WACA). War in the Pacific National Historical Park (WAPA), Washita Battlefield National Historic Site (WABA), White Sands National Monument (WHSA), Whitman Mission National Historic Site (WHMI), Whiskeytown-Shasta-Trinity National Recreation Area (WHIS), Wilson's Creek National Battlefield (WICR), Wind Cave National Park (WICA), Wolf Trap Farm Park (WOTR), Wrangell-St. Elias National Park (WRST), Wupatki National Monument (WUPA), Yosemite National Park (YOSE), Yucca House National Monument (YUHO), Yukon-Charley Rivers (YUCH)</procdesc>
+				<procdate>20050601</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>National Park Service</cntorg>
+						</cntperp>
+						<cntpos>Land Resources Division Chief Cartographer</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>301 S. Howes St. Suite 208</address>
+							<city>Fort Collins</city>
+							<state>CO</state>
+							<postal>80522</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntemail> PPFL_LandsNET@NPS.GOV</cntemail>
+						<hours>M-F 7:30-5:00 Mountain Time</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Two sets of boundaries were collected and compared. The main set was obtained from David Duran, who collected
+boundaries from each region in the summer of 2001.  The second set was obtained from Dean Tucker, who digitized boundaries 
+for the Horizon Project.  The main set from David Duran was determined to contain the most recent boundary information. 
+Parks missing from David's set were added from Deans set. Those parks are..........Antietam NB Arlington House,Benjamin 
+Franklin NMEM, Big Hole NB, Catoctin Mountain Park, Chesapeake and Ohio Canal NHP, Chimney Rock NHS, Fort Point NHS, 
+Fredericksburg NC, George Washington Memorial Parkway, Green Springs, Harpers Ferry NHP, International Peace Garden, 
+John F. Kennedy Center for the      Performing Arts, Kalaupapa NHP, Manassas NBP, McLoughlin House NHS, Monocacy NB, 
+National Capital Parks - Central and East, Olympic NP, Prince William Forest Park, Rock Creek Park, San Francisco 
+Maritime NHP, Thaddeus Kosciuszko NMEM, and Wolf Trap Farm Park for the Performing Arts. Park/Region staff were consulted 
+for parks with major differences between the two sets. </procdesc>
+				<procdate>2002</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>National Park Service</cntorg>
+						</cntperp>
+						<cntpos>GIS Specialist/Cooperator</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>1201 Oakridge Drive Suite 200</address>
+							<city>Fort Collins</city>
+							<state>CO</state>
+							<postal>80525</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntemail>waso-nrpc_nrgis@nps.gov </cntemail>
+						<hours>M-F 8-5 Mountain Time</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Boundaries were updated with data provided by National
+     Parks or Regional Offices.</procdesc>
+			</procstep>
+		</lineage>
+		<cloud>Unknown</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>4225</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>2629</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Composite object</sdtstype>
+				<ptvctcnt>482</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000002</latres>
+				<longres>0.000002</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Loc_ID</attrlabl>
+				<attrdef>Primary key for linking geospatial objects with other database systems.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Unit_Code</attrlabl>
+				<attrdef>Four letter code to define the National Park unit.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Group_Code</attrlabl>
+				<attrdef>Four letter code to define administration of the National Park unit.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Unit_Name</attrlabl>
+				<attrdef>Name of the National Park unit.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Unit_Type</attrlabl>
+				<attrdef>Type of unit boundary (i.e. Park, Preserve, Memorial, Monument...)</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Meta_MIDF</attrlabl>
+				<attrdef>Foregin key to link the primary key and metadata record in NR-GIS Data Store.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Lands_Code</attrlabl>
+				<attrdef>Unique alpha-numeric string use by LRD to tract the geospatial object.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Date_Edit</attrlabl>
+				<attrdef>The last update or offical review of the object</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Notes</attrlabl>
+				<attrdef>Free text.</attrdef>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Attributes are as follows: Shape, GIS_Loc_ID, Unit_Code, 
+Group_Code, Unit_Name, Unit_Type, Meta_MIDF, Lands_Code, Date_Edit, GIS_Notes</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distliab>The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully on a computer system at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</distliab>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>5.693</transize>
+					<formname>SHP</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://nrdata.nps.gov/programs/lands/nps_boundary.zip </networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+		</stdorder>
+		<techpreq>Must have access to GIS software such as ESRI's ArcView
+   or ArcInfo, or other compatible software, to view the data</techpreq>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20010301</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		
+		<metrd>20050622 </metrd>
+		<metfrd>20031002</metfrd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>National Park Service</cntorg>
+				</cntperp>
+				<cntpos>Chief Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>301 S. Howes St. Suite 208</address>
+					<city>Fort Collins</city>
+					<state>CO</state>
+					<postal>80522</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>roger_m_johnson@nps.gov</cntemail>
+				<hours>M-Th 7-5:30 Mountain Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+	<metd>20070108</metd></metainfo>
+	<NPS_Info>
+		
+		<MetaPurp>NPS</MetaPurp>
+		<MetaPurp>CSDGM</MetaPurp>
+		<MetaPurp>OnlineData</MetaPurp>
+		<NPS_Unit>
+			<UnitType>Office</UnitType>
+			<UnitCode>GISD</UnitCode>
+			<Org_Code/>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitType>NPS-wide Data</UnitType>
+			<UnitCode>All_NPS</UnitCode>
+			<Org_Code/>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>AFBG</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ALAG</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ANIA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ANJO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ANTI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>APCO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ARCH</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ARHO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BADL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BELA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BLCA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BOHA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BRCR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BRVB</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BUIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>BUFF</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CACL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CAKR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CARL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CAVO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CAVE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CAWO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CASA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CATO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CEBE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CEBR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CHSC</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CHIR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CHIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CHPI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CHRI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CLBA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>COSW</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CUGA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>CUVA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>DENA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>DETO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>EFMO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ELMO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ELRO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FEHA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FILA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FLFO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FLNI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FODA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOFR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOBO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOBU</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOSM</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOSU</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOTH</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOUN</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FOWA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>FRDO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GAAR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GEGR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GREE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GWMP</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GICL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GLBA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GOGA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GOIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GRKO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>GRSA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HAFE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HAGR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HEHO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HOFR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HOME</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HOVE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>HUTR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>IATR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>INDU</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>JAGA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>JICA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>JOTR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KATM</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KEFJ</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KEMO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KEWE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KICA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KLGO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>KOVA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>LACL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>LABE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>LAME</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>LIBI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>LYBA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MABE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MACA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MALU</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MANA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MEVE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MIMA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MOJA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>MONO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>NATC</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>NACA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>NICO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>NISI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>NOAT</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>ORPI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>OZAR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PAIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PEFO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PIPE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PIRO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PISC</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PISP</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>PORE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>RRBH</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SAMO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SAND</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SAPA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SARI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SCBL</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SEQU</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SITK</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>SUCR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TAPR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>THIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>THRB</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>THRO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TICA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TONT</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TUPE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TUAI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TUMA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>TUZI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>VAFO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>VOYA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WABA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WACA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WAPA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WHIS</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WHSA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WHMI</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WICA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WICR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WOTR</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WRST</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>WUPA</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>YOSE</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>YUHO</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<NPS_Unit>
+			<UnitCode>YUCH</UnitCode>
+			<UnitType>Park</UnitType>
+		</NPS_Unit>
+		<DatStore>
+			<DSteward>
+				<cntinfo>
+					<cntorgp>
+						<cntper>Roger Johnson</cntper>
+					</cntorgp>
+					<cntemail>roger_m_johnson@nps.gov </cntemail>
+				</cntinfo>
+			</DSteward>
+			<DataSite>NR-GIS</DataSite>
+			<Category>Boundary</Category>
+		</DatStore>
+	<Meta_MID>42857</Meta_MID></NPS_Info>
+</metadata>
