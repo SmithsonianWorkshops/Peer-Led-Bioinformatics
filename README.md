@@ -36,6 +36,7 @@ Date | Speaker | Topic | Links
 4/21/2016 | Carolyn Teplot | Analysis of coexpression patterns in genes | [Slides](Spring2016/Tepolt-GenTools_popgen.pdf)
 
 ##Spring 2015
+
 Date | Speaker | Topic | Links
 -----|---------|-------|--------
 4/20/2015| Rebecca Dikow | Whole genome alignment/phylogeny | [Slides](Spring2015/Dikow_WGalignment_4_19_15.pdf)
